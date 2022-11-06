@@ -22,14 +22,14 @@ In mijn 2versie heb ik meer aandacht besteden aan mijn website responsive en toe
 <!-- Voeg een link toe naar Github Pages -->
 
 
---> Hieronder kan je zien hoe mij website eruit ziet in deze Versie. <br>
+📸 --> Hieronder kan je zien hoe mij website eruit ziet in deze Versie. <br>
 
 ![image](https://user-images.githubusercontent.com/112857932/200172542-947668ad-0412-44bd-b5ef-4d8747ef974b.png)
 ![image](https://user-images.githubusercontent.com/112857932/200172471-94328c23-3577-4eff-9d97-d6471d0cb9c9.png)
 ![image](https://user-images.githubusercontent.com/112857932/200172521-9e2744b5-1070-48ec-819b-3782f535b5cf.png)
 
 
-🌐--> Link naar mijn website:
+🌐 --> Link naar mijn website: https://ibadr49.github.io/all-human-accessible-website/
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
