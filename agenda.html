@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
     <title>Kalender</title>
+
   </head>
 
   <header>
@@ -20,7 +21,7 @@
         <li>Over ons</li>
         <li>Nieuws</li>
         <li>Contact</li>
-        <li class="Mini">Mini-Dagboek</li>
+        <li class="Mini">Ali-Profiel</li>
         <li>Zoeken</li>
       </ul>
     </nav>
@@ -28,7 +29,7 @@
 
   <body>
     <div class="homepage">
-      Startpagina / <a href="index.html" class="homepagina"> Mini-Dagboek </a>
+      Startpagina / <a href="index.html" class="homepagina"> Ali-Profiel</a>
     </div>
     <table id="calendar">
       <caption>
@@ -215,5 +216,88 @@
         </td>
       </tr>
     </table>
+    <br />
+    <div class="logboek">
+      <h1>Logboek</h1>
+      <h2>Beschrijf eerlijk hoe het ging met jouw Ali</h2>
+
+      <style>
+        fieldset {
+          background-color: rgba(0, 0, 0, 0.1);
+          border: none;
+          margin-bottom: 1em;
+          background: #e4f2f2;
+         border: 1px solid #b5dbdc;
+        }
+        legend,
+        legend span {
+          color: #000;
+        }
+
+        legend span {
+          background-color: #004f44;
+          border-radius: 50%;
+          display: inline-block;
+          padding: 0.25rem;
+          font-size: 1em;
+          width: 1em;
+          height: 1em;
+          text-align: center;
+          color: white;
+        }
+          input{
+            width: 15%;
+            
+          }
+          textarea {
+            width: 90%;
+          }
+        
+      </style>
+
+      <fieldset class="input1">
+        <div class="inputForm">
+          <input class="input" type="checkbox" />
+          <label class="container">10-11-2022</label>
+          <span class="checkmark"></span>
+        </div>
+        <p> Vandaag heeft Ali een pinda zakje genomen.</p>
+        <legend><span>1</span></legend>
+        <label for="question"></label>
+        <textarea id="question" placeholder="Vul hier hoe het ging?">
+        </textarea> 
+        <input type="submit" value="Submit">
+        <p class="test">Dit zie je nu!</p>
+      </fieldset>
+      <br/>
+      
+      <fieldset>
+        <div class="inputForm">
+          <input class="input" type="checkbox" />
+          <label class="container">25-11-2022</label>
+          <span class="checkmark"></span>
+        </div>
+        <p> Vandaag heeft Ali ei genomen ... </p>
+        <legend><span>2</span></legend>
+        <label for="question"></label>
+       <textarea id="question" placeholder=" Vul hier hoe het ging?"></textarea>
+       <input type="submit" value="Submit">
+      </fieldset>
+
+      <fieldset>
+        <div class="inputForm">
+          <input class="input" type="checkbox" />
+          <label class="container">23-12-2022</label>
+          <span class="checkmark"></span>
+        </div>
+        <p> Vandaag heeft Ali .... </p>
+        <legend><span>3</span></legend>
+        <label for="question"></label>
+        <textarea id="question" placeholder=" Vul hier hoe het ging?"></textarea>
+        <input type="submit" value="Submit">
+      </fieldset>
+
+
   </body>
+  <script src="/scripts/script.js"></script>
 </html>
