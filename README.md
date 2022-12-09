@@ -38,7 +38,7 @@ Deze website is met Html/Css en een klein stukje Js gemaakt. Ik heb een (grid-tb
 
 ## Bronnen
 
-W3S - https://www.w3schools.com/
+W3S - https://www.w3schools.com/  <br>
 MDN Web docs - https://developer.mozilla.org/en-US/
 
 ## Licentie
