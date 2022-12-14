@@ -1,16 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
-
-:root {
---font: 'Montserrat';
-}
-
 body{
     margin: 0;
     padding: 0;
-    font-family: var(--font)
+    font-family: Arial, Helvetica, sans-serif;
   }
-
-
 
 @media only screen and (max-width: 1024px) {
   header nav{
@@ -34,6 +26,9 @@ body{
   div.box4{
     display: none;
   }
+
+
+
 }
 
 
@@ -49,6 +44,7 @@ body{
     justify-items: center;
     justify-content: center;
    }
+  
 }
 
 
@@ -70,13 +66,12 @@ a:hover{
 }
 
 
-
 /* Navbar */
 
 header {
   background-color: white;
   padding: 10px;
-  font-family: var(--font);
+  font-family: Arial, Helvetica, sans-serif;
 
   /* opacity: 0.5; */
   /* position: sticky;
@@ -190,42 +185,17 @@ header {
   width: 23vw;
 }
 
-.logboek{
-  margin:0 auto;
-  width:80%;
-  margin-bottom: 150px;
-}
-
-.logboek, .inputForm{
- justify-content: left;
-}
-
-.input1{
-  height: 20vh;
-  transition: ease 0.5s;
-}
-
-/* dit is voor JS */
-.inputOn{
-  height: 50vh;
-}
-
-.test{
-  display: none;
-}
-/* END JS classes */
-
 
 .logboek, .advies{
   border-radius: 10px;
   box-shadow: 2px 2px 20px #72afa6;
-  /*margin-bottom: 15px;
-  margin: 20px;*/
+  margin-bottom: 15px;
+  margin: 20px;
   padding: 10px;
 }
 
 .logboek p {
-  margin: 14px;
+  margin: 10px;
 }
 
 /** 
@@ -376,7 +346,7 @@ h2{
     position: relative; 
     display: block;
     text-decoration: none;
-    font-family: var(--font);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: rgb(0, 0, 0);
     
@@ -402,7 +372,6 @@ h2{
   margin-left: 10%;  
   margin-bottom: 10%;
   width: 80%;
-  /*margin:0 auto;*/
   display: grid;
   grid-template-columns: repeat(7, 1fr);
 }
@@ -561,7 +530,6 @@ caption {
   bottom: 23px;
   right: 40px;
   width: 260px;
-  border-radius: 45px;
 }
 
 /* The popup chat - hidden by default */
